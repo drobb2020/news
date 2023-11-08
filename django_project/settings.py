@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-#cyxm%tnztwiyvwu6u=p)oea&lfi*4mn3vrfq+!_nw77)lo5#q"
+SECRET_KEY = "h#@@#1@%uf4fbe6*2ah3g!4m46k)*e@f&60wivdhy7wld&z%bc"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,13 +39,19 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Applications
     "accounts",
+    "pages",
     # Libraries
     "django_extensions",
+    "crispy_forms",
+    "crispy_bootstrap5",
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser"
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
