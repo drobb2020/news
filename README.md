@@ -76,14 +76,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `drobb2020`, `news`, `twitter_handle`, `linkedin_username`, `drobb2011@gmail.com`, `drobb2011@gmail.com_client`, `Newspaper App`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* [Django](https://www.djangoproject.com/)
-* [Bootstrap](https://getbootstrap.com/)
+* [Django 4.2.7](https://www.djangoproject.com/)
+* [Bootstrap 5](https://getbootstrap.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
