@@ -8,7 +8,7 @@ class CustomUserCreationForm(UserCreationForm):
         model = CustomUser
         fields = (
             "username",
-            "email",
+            "drobb2011@gmail.com",
             "age",
         )
 
@@ -18,6 +18,6 @@ class CustomUserChangeForm(UserChangeForm):
         model = CustomUser
         fields = (
             "username",
-            "email",
+            "drobb2011@gmail.com",
             "age",
         )

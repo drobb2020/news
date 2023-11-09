@@ -153,4 +153,4 @@ STORAGE = {
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+drobb2011@gmail.com_BACKEND = "django.core.mail.backends.console.drobb2011@gmail.comBackend"

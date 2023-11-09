@@ -4,7 +4,7 @@ black==23.11.0
 click==8.1.7
 crispy-bootstrap5==2023.10
 dj-database-url==2.1.0
-dj-email-url==1.0.6
+dj-drobb2011@gmail.com-url==1.0.6
 Django==4.2.7
 django-cache-url==3.4.4
 django-crispy-forms==2.1

@@ -69,9 +69,12 @@ class Migration(migrations.Migration):
                     ),
                 ),
                 (
-                    "email",
-                    models.EmailField(
-                        blank=True, max_length=254, verbose_name="email address"
+                    "drobb2011@gmail.com",
+                    models.drobb2011
+                    @ gmail.comField(
+                        blank=True,
+                        max_length=254,
+                        verbose_name="drobb2011@gmail.com address",
                     ),
                 ),
                 (
